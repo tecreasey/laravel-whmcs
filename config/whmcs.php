@@ -28,8 +28,8 @@ return [
     'apiurl' => env('WHMCS_API_URL', 'https://url.to.whmcs.tld/whmcs/includes/api.php'),
 
     'api' => [
-        'identifier' => env('WHMCS_API_IDENTIFIER', 'YOUR_API_IDENTIFIER'),
-        'secret' => env('WHMCS_API_SECRET', 'YOUR_API_SECRET'),
+        'username' => env('WHMCS_API_IDENTIFIER', 'YOUR_API_IDENTIFIER'),
+        'password' => env('WHMCS_API_SECRET', 'YOUR_API_SECRET'),
     ],
 
     'password' => [
